@@ -103,6 +103,7 @@
 					addEffectClassOpen();
 					var rand_heard_name = Math.floor(Math.random() * settings.Varible1.length);
 					var rand_heard_city = Math.floor(Math.random() * settings.Varible2.length);
+                                        var rand_heard_times = Math.floor(Math.random() * settings.Varible3.length);
 					var rand_heard_number = Math.floor(Math.random() * (settings.Amount[0] - settings.Amount[1])) + settings.Amount[1];										
 					if(settings.Content.indexOf('[Varible1]') + 1) {
 						var content = settings.Content.replace("[Varible1]", settings.Varible1[rand_heard_name]);
@@ -115,6 +116,12 @@
 					}
 					else {
 						var content = content.replace("[Varible2]", settings.Varible2[rand_heard_city]);
+					}
+                                        if(content.indexOf('[Varible3]') + 1) {
+						var content = content.replace("[Varible3]", settings.Varible3[rand_heard_times]);
+					}
+					else {
+						var content = content.replace("[Varible3]", settings.Varible3[rand_heard_times]);
 					}		
 					var content = content.replace("[Amount]", rand_heard_number);
 					$(self).find('.notification-text').html(content);
