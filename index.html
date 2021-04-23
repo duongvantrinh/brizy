@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Fake Notifications - creating effective herd effects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Fake Notifications stylesheet -->
+	<link rel="stylesheet" href="../assets/css/fake-notification-min.css">
+	<link rel="stylesheet" href="../assets/css/animate.min.css">
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+	
+	<!-- Demo styles only -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,700' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		#container h2,p{text-align:center}.demo-lb,.manualLabel{color:#fff}.demo-lb,.manualLabel,h1{display:block;font-weight:700!important;text-align:center}body{position:relative;width:100%;height:100%;margin:0;padding:0;border:0;outline:0;font-weight:400;font-style:normal;font-size:100%;vertical-align:baseline;line-height:normal;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.manualLabel{margin:0 10px;width:200px;height:52px;line-height:52px;font-size:12px;background:#000;cursor:pointer;text-transform:uppercase;opacity:.4;display:inline-block;}.manualLabel:hover{opacity:1}p{font-size:13px!important}.demo-lb{bottom:-1px;border-radius:0 0 4px 4px;width:100%;background:#4570ac;font-size:22px!important;padding:10px!important;margin-top:30px!important}.demo-lb,.manualLabel,h1,h2,p,.slickWindow a.docs{font-family:Raleway,Arial, Helvetica,sans-serif!important}.demo-lb:hover{background:#396197}h1{font-size:30px!important;border-bottom:solid 1px #ddd!important;padding-bottom:24px!important;margin-bottom:24px!important;color:#333}#container{text-align:center;bottom:0;height:340px;left:0;margin:auto;position:fixed;right:0;top:0;width:800px}#container p{font-size:13px!important;line-height:18px;padding-bottom:20px}#container h2{font-size:18px;font-weight:200}.slickWindow a.docs{position: absolute;bottom:-30px;left:0;right:0;text-align:center;display:inline-block;font-weight:700;color:#999;font-size:12px;}#window a.docs:hover{color:#000;}
+	</style>
+	
+</head>
+<body>
+	
+	<div id="container">
+		<h1>Hi there</h1>
+		<h2>Thank you for choosing Fake Notifications</h2>
+		<p>This page is a demo for you to <b>simply copy & paste</b> the code and start with your promotions fast.</p>			
+	</div>
+	
+	
+	<!-- ========== START COPYING HERE ========== -->
+	<div id="notification-1" class="notification">			
+		<div class="notification-block">
+			<div class="notification-img">
+				<!-- Your image or icon -->
+				<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+				<!-- / Your image or icon -->
+			</div>
+			<div class="notification-text-block">
+				<div class="notification-title">
+					<!-- Notification Title -->
+					New Order
+					<!-- / Notification Title -->
+				</div>
+				<div class="notification-text"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="notification-2" class="notification">			
+		<div class="notification-block">
+			<div class="notification-img">
+				<!-- Your image or icon -->
+				<i class="fa fa-user-plus" aria-hidden="true"></i>
+				<!-- / Your image or icon -->
+			</div>
+			<div class="notification-text-block">
+				<div class="notification-title">
+					<!-- Notification Title -->
+					New registration
+					<!-- / Notification Title -->
+				</div>
+				<div class="notification-text"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="notification-3" class="notification">			
+		<div class="notification-block">
+			<div class="notification-img">
+				<!-- Your image or icon -->
+				<i class="fa fa-money" aria-hidden="true"></i>
+				<!-- / Your image or icon -->
+			</div>
+			<div class="notification-text-block">
+				<div class="notification-title">
+					<!-- Notification Title -->
+					JackPot
+					<!-- / Notification Title -->
+				</div>
+				<div class="notification-text"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- ========== END COPYING HERE ========== -->
+	
+	<script type="text/javascript" src="../assets/js/jquery-3.2.1.min.js"></script>
+	
+	<!-- Fake Notifications jQuery plugin -->
+	<script type="text/javascript" src="../assets/js/jquery.fake-notification.min.js"></script>
+	
+	<!-- Fake Notifications invoke -->
+	<script>
+		$(document).ready(function() {
+			$('#notification-1').Notification({
+				// Notification varibles
+				Varible1: ["Emma", "Noah", "Olivia", "Liam", "Ava","William"],
+				Varible2: ["Bangkok","London","Paris","Dubai","New York","Singapore"],
+				Amount: [1000, 25000],					
+				Content: '[Varible1] from [Varible2] has just bought <b>Fake Notifications</b>.',
+				// Timer
+				Show: ['stable', 5, 10],
+				Close: 5,
+				Time: [0, 23],
+				// Notification style 
+				LocationTop: [true, '5%'],
+				LocationBottom:[false, '10%'],
+				LocationRight: [false, '10%'],						
+				LocationLeft:[true, '10px'],
+				Background: 'white',
+				BorderRadius: 5,
+				BorderWidth: 1,
+				BorderColor: 'green',
+				TextColor: 'black',
+				IconColor: 'orange',
+				// Notification Animated   
+				AnimationEffectOpen: 'zoomInUp',
+				AnimationEffectClose: 'zoomOutUp',
+				// Number of notifications
+				Number: 3,
+				// Notification link
+				Link: [true, 'https://codecanyon.net/user/wow-company/portfolio', '_blank']				
+			});	
+			
+			$('#notification-2').Notification({
+				// Notification varibles
+				Varible1: ["Emma", "Noah", "Olivia", "Liam", "Ava","William"],
+				Varible2: ["Bangkok","London","Paris","Dubai","New York","Singapore"],
+				Amount: [100, 2500],					
+				Content: '[Varible1] from [Varible2] registered on the site.',
+				// Timer
+				Show: ['stable', 3, 10],
+				Close: 10,
+				// Notification style 
+				LocationTop: [false, '5%'],
+				LocationBottom:[true, '2%'],
+				LocationRight: [true, '20px'],						
+				LocationLeft:[false, '10px'],
+				Background: 'blue',
+				BorderRadius: 5,
+				BorderWidth: 5,
+				BorderColor: '#8CD9F0',
+				TextColor: 'white',
+				IconColor: '#ffffff',
+				// Notification Animated   
+				AnimationEffectOpen: 'slideInUp',
+				AnimationEffectClose: 'slideOutDown',
+				// Number of notifications
+				Number: 5,
+				// Notification link
+				Link: [false, 'https://codecanyon.net/user/wow-company/portfolio', '_blank']				
+			});	
+			
+			$('#notification-3').Notification({
+				// Notification varibles
+				Varible1: ["Emma", "Noah", "Olivia", "Liam", "Ava","William"],
+				Varible2: ["Bangkok","London","Paris","Dubai","New York","Singapore"],
+				Amount: [1000, 25000],					
+				Content: '[Varible1] from [Varible2] has just win $[Amount].',
+				// Timer
+				Show: ['random', 3, 25],
+				Close: 7,
+				// Notification style 
+				LocationTop: [false, '5%'],
+				LocationBottom:[true, '2%'],
+				LocationRight: [false, '20px'],						
+				LocationLeft:[true, '10px'],
+				Background: 'black',
+				BorderRadius: 0,
+				BorderWidth: 5,
+				BorderColor: 'gold',
+				TextColor: 'white',
+				IconColor: 'gold',
+				// Notification Animated   
+				AnimationEffectOpen: 'rotateIn',
+				AnimationEffectClose: 'zoomOut',
+				// Number of notifications
+				Number: 5,
+				// Notification link
+				Link: [false, 'https://codecanyon.net/user/wow-company/portfolio', '_blank']				
+			});	
+			
+			
+		});				
+		
+	</script>
+	
+</body>
+</html>
