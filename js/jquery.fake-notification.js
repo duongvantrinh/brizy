@@ -12,9 +12,9 @@
 		var settings = $.extend({
 			Varible1: ["Dima"," Vasya"," Petya"],
 			Varible2: ["New York"," Zhitomir"," Zaporozhie"],
-                        Varible3: ["30 giây trước","15 phút trước","23 phút trước"],
+                        Varible3: ["30s","15s","23p"],
 			Amount: [100, 2500],
-			Content: '[Varible1] from [Varible2] has just placed an order for $[Amount].<br>[Varible3]',
+			Content: '[Varible1] from [Varible2] has just placed [Varible3] an order for $[Amount].',
 			Show: ['stable', 5, 25],
 			Close: 5,
 			Time: [0, 23],
