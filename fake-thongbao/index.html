@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Fake Notifications - creating effective herd effects</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
 	<!-- Fake Notifications stylesheet -->
-	<link rel="stylesheet" href="https://duongvantrinh.github.io/libs/css/fake-notification.css">
-	<link rel="stylesheet" href="https://duongvantrinh.github.io/libs/css/animate.min.css">
-	<link rel="stylesheet" href="https://duongvantrinh.github.io/libs/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://duongvantrinh.github.io/libs/fake-thongbao/css/fake-notification.css">
+	<link rel="stylesheet" href="https://duongvantrinh.github.io/libs/fake-thongbao/css/animate.css">
 	
-	<!-- Demo styles only -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,700' rel='stylesheet' type='text/css'>
-	<style type="text/css">
-		#container h2,p{text-align:center}.demo-lb,.manualLabel{color:#fff}.demo-lb,.manualLabel,h1{display:block;font-weight:700!important;text-align:center}body{position:relative;width:100%;height:100%;margin:0;padding:0;border:0;outline:0;font-weight:400;font-style:normal;font-size:100%;vertical-align:baseline;line-height:normal;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.manualLabel{margin:0 10px;width:200px;height:52px;line-height:52px;font-size:12px;background:#000;cursor:pointer;text-transform:uppercase;opacity:.4;display:inline-block;}.manualLabel:hover{opacity:1}p{font-size:13px!important}.demo-lb{bottom:-1px;border-radius:0 0 4px 4px;width:100%;background:#4570ac;font-size:22px!important;padding:10px!important;margin-top:30px!important}.demo-lb,.manualLabel,h1,h2,p,.slickWindow a.docs{font-family:Raleway,Arial, Helvetica,sans-serif!important}.demo-lb:hover{background:#396197}h1{font-size:30px!important;border-bottom:solid 1px #ddd!important;padding-bottom:24px!important;margin-bottom:24px!important;color:#333}#container{text-align:center;bottom:0;height:340px;left:0;margin:auto;position:fixed;right:0;top:0;width:800px}#container p{font-size:13px!important;line-height:18px;padding-bottom:20px}#container h2{font-size:18px;font-weight:200}.slickWindow a.docs{position: absolute;bottom:-30px;left:0;right:0;text-align:center;display:inline-block;font-weight:700;color:#999;font-size:12px;}#window a.docs:hover{color:#000;}
-	</style>
-	
-</head>
-<body>
-	
-	<div id="container">
-		<h1>Hi there</h1>
-		<h2>Thank you for choosing Fake Notifications</h2>
-		<p>This page is a demo for you to <b>simply copy & paste</b> the code and start with your promotions fast.</p>			
-	</div>
-	
-	
+		
 	<!-- ========== START COPYING HERE ========== -->
 	<div id="notification-1" class="notification">			
 		<div class="notification-block">
@@ -84,10 +63,9 @@
 	
 	<!-- ========== END COPYING HERE ========== -->
 	
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<!-- Fake Notifications jQuery plugin -->
-	<script src="https://duongvantrinh.github.io/libs/js/jquery.fake-notification.js"></script>
+	<script src="https://duongvantrinh.github.io/libs/fake-thongbao/js/jquery.fake-notification.js"></script>
 	
 	<!-- Fake Notifications invoke -->
 	<script>
@@ -96,8 +74,9 @@
 				// Notification varibles
 				Varible1: ["Emma", "Noah", "Olivia", "Liam", "Ava","William"],
 				Varible2: ["Bangkok","London","Paris","Dubai","New York","Singapore"],
+                                Varible3: ["phone1","phone2","phone3","phone4","phone5","phone6"],
 				Amount: [1000, 25000],					
-				Content: '[Varible1] from [Varible2] has just bought <b>Fake Notifications</b>.',
+				Content: '[Varible1] from [Varible2]-[Varible3] has just bought <b>Fake Notifications</b>.',
 				// Timer
 				Show: ['stable', 5, 10],
 				Close: 5,
@@ -126,8 +105,9 @@
 				// Notification varibles
 				Varible1: ["Emma", "Noah", "Olivia", "Liam", "Ava","William"],
 				Varible2: ["Bangkok","London","Paris","Dubai","New York","Singapore"],
+                                Varible3: ["phone1","phone2","phone3","phone4","phone5","phone6"],
 				Amount: [100, 2500],					
-				Content: '[Varible1] from [Varible2] registered on the site.',
+				Content: '[Varible1]-[Varible3] from [Varible2] registered on the site.',
 				// Timer
 				Show: ['stable', 3, 10],
 				Close: 10,
@@ -155,8 +135,9 @@
 				// Notification varibles
 				Varible1: ["Emma", "Noah", "Olivia", "Liam", "Ava","William"],
 				Varible2: ["Bangkok","London","Paris","Dubai","New York","Singapore"],
+                                Varible3: ["phone1","phone2","phone3","phone4","phone5","phone6"],
 				Amount: [1000, 25000],					
-				Content: '[Varible1] from [Varible2] has just win $[Amount].',
+				Content: '[Varible1]-[Varible3] from [Varible2] has just win $[Amount].',
 				// Timer
 				Show: ['random', 3, 25],
 				Close: 7,
@@ -185,5 +166,3 @@
 		
 	</script>
 	
-</body>
-</html>

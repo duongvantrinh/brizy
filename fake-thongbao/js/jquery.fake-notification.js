@@ -14,7 +14,7 @@
 			Varible2: ["New York"," Zhitomir"," Zaporozhie"],
                         Varible3: ["30s","15s","23p"],
 			Amount: [100, 2500],
-			Content: '[Varible1] from [Varible2] has just placed [Varible3] an order for $[Amount].',
+			Content: '[Varible1] from [Varible2]<br> has just placed an order for $[Amount].<br>[Varible3]',
 			Show: ['stable', 5, 25],
 			Close: 5,
 			Time: [0, 23],
