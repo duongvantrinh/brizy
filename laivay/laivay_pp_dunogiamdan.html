@@ -1,0 +1,52 @@
+<link href="https://duongvantrinh.github.io/libs/laivay/css/calendar.css" rel="stylesheet" type="text/css">
+<link href="https://duongvantrinh.github.io/libs/laivay/css/tinhlaisuat.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://duongvantrinh.github.io/libs/laivay/js/calendar.js"></script>
+<script type="text/javascript" src="https://duongvantrinh.github.io/libs/laivay/js/pp_dunogiamdan.js"></script>
+        <!-- content -->
+        <table class="tbl-loan-repayment">
+            <tbody>
+               <tr>
+                    <td align="left" width="100%">
+<div class="text-loan-repayment">Số tiền vay</div>
+                        <input class="txt-loan-repayment" id="money" type="text" value=""> VND</td>
+                </tr>
+                <tr>
+                    <td align="left" width="100%">
+ <div class="text-loan-repayment">Thời gian vay</div>
+                        <input class="txt-loan-repayment" id="time" maxlength="3" type="text" value=""> tháng</td>
+                </tr>
+                <tr>
+                    <td align="left" width="100%">
+<div class="text-loan-repayment">Lãi suất</div>
+                        <input class="txt-loan-repayment" id="percent" maxlength="4" type="text" value=""> % năm</td>
+                </tr>
+                <tr>
+                    <td align="left" width="100%">
+<div class="text-loan-repayment">Ngày giải ngân</div>
+                        <input class="txt-date" id="date" readonly="readonly" type="text" value=""> <img alt="Chọn ngày" id="btnDate" src="https://www.techcombank.com.vn//content/images/calendar/calendar-icon.gif">
+                        <script type="text/javascript">
+                            //<![CDATA[
+                            Calendar.setup({
+                                inputField: "date",
+                                trigger: "btnDate",
+                                onSelect: function() {
+                                    this.hide()
+                                },
+                                showTime: 8,
+                                dateFormat: " %m/%d/%Y"
+                            });
+                            //]]>
+
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" width="100%">
+                        <input class="btnrepayment" id="btnrepayment" onclick="calcLoan();" type="button" value="TÍNH">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- End content -->
+<div id="listRepayment" style="overflow: auto">&nbsp;</div>
