@@ -31,6 +31,16 @@
     padding: 7px 6px;
 }
 
+.txt-loan-repayment, .txt-date {
+    border: 1px solid #DBDBDB;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 3px;
+    padding: 0 3px;
+    width: 200px;
+	text-align: right;
+}
+
 .btnrepayment {
     background: #D5161D no-repeat scroll 0 0;
     border: medium none;
