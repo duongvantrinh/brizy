@@ -1,0 +1,50 @@
+/* CSS Document */
+.tbl-loan-repayment {
+    background: red;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 10px 15px 15px 15px;
+    width: 100%;
+}
+
+.tbl-loan-repayment td {
+    line-height: 140%;
+    padding: 7px 6px;
+}
+
+.tbl-list-repayment {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.tbl-list-repayment th {
+    background: none repeat scroll 0 0 #ECECEC;
+    color: #303030;
+    font-size: 14px;
+    padding: 7px 5px;
+}
+
+.tbl-list-repayment td {
+    font-size: 14px;
+    line-height: 140%;
+    padding: 7px 6px;
+}
+
+.btnrepayment {
+    background: blue no-repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    width: 84px;
+}
+
+#btnDate {
+	position: relative;
+	top: 2px;
+	cursor: pointer;
+}
