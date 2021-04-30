@@ -1,6 +1,6 @@
 /* CSS Document */
 .tbl-loan-repayment {
-    background: red;
+    background: #FAFAFA;
     border: 1px solid #E2E2E2;
     border-radius: 10px;
     padding: 10px 15px 15px 15px;
@@ -32,7 +32,7 @@
 }
 
 .btnrepayment {
-    background: blue no-repeat scroll 0 0;
+    background: #D5161D no-repeat scroll 0 0;
     border: medium none;
     border-radius: 5px;
     color: #FFFFFF;
