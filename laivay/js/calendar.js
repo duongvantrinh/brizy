@@ -40,37 +40,97 @@ Calendar.LANG("vi", "VN", {
                "Tháng 11",
                "Tháng 12" ],
 
-        smn : [ "Thg 1",
-                "Thg 2",
-                "Thg 3",
-                "Thg 4",
-                "Thg 5",
-                "Thg 6",
-                "Thg 7",
-                "Thg 8",
-                "Thg 9",
-                "Thg 10",
-                "Thg 11",
-                "Thg 12" ],
+        smn : [ "Th 1",
+                "Th 2",
+                "Th 3",
+                "Th 4",
+                "Th 5",
+                "Th 6",
+                "Th 7",
+                "Th 8",
+                "Th 9",
+                "Th 10",
+                "Th 11",
+                "Th 12" ],
 
-        dn : [ "CN",
+        dn : [ "Chủ nhật",
                "Thư 2",
                "Thứ 3",
                "Thứ 4",
                "Thứ 5",
                "Thứ 6",
                "Thứ 7",
-               "CN" ],
+               "Chủ nhật" ],
 
         sdn : [ "CN",
-               "Thư 2",
-               "Thứ 3",
-               "Thứ 4",
-               "Thứ 5",
-               "Thứ 6",
-               "Thứ 7",
+               "T2",
+               "T3",
+               "T4",
+               "T5",
+               "T6",
+               "T7",
                "CN" ]
 
 });
 
+Calendar.LANG("en", "English", {
 
+    fdow: 1,                // first day of week for this locale; 0 = Sunday, 1 = Monday, etc.
+
+    goToday: "Go Today",
+
+    today: "Today",         // appears in bottom bar
+
+    wk: "wk",
+
+    weekend: "0,6",         // 0 = Sunday, 1 = Monday, etc.
+
+    AM: "am",
+
+    PM: "pm",
+
+    mn: ["January",
+           "February",
+           "March",
+           "April",
+           "May",
+           "June",
+           "July",
+           "August",
+           "September",
+           "October",
+           "November",
+           "December"],
+
+    smn: ["Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"],
+
+    dn: ["Sunday",
+           "Monday",
+           "Tuesday",
+           "Wednesday",
+           "Thursday",
+           "Friday",
+           "Saturday",
+           "Sunday"],
+
+    sdn: ["Su",
+            "Mo",
+            "Tu",
+            "We",
+            "Th",
+            "Fr",
+            "Sa",
+            "Su"]
+
+});
