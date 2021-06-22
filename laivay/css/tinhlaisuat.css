@@ -1,5 +1,6 @@
 /* CSS Document */
 .tbl-loan-repayment {
+    line-height: 140%;
     background: #FAFAFA;
     border: 1px solid #E2E2E2;
     border-radius: 10px;
@@ -16,7 +17,7 @@
   }
 }
 
-.tbl-loan-repayment td {
+td {
     line-height: 140%;
     padding: 7px 6px;
 }
