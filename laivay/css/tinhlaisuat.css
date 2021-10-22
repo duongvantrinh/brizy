@@ -5,6 +5,7 @@
     border: 1px solid #E2E2E2;
     border-radius: 10px;
     width: 100%;
+    font: inherit;
   }
 @media only screen and (min-width: 1024px) {
 .tbl-loan-repayment {
@@ -21,15 +22,18 @@ td {
     line-height: 140%;
     padding: 7px 6px;
 }
-
+.tbl-loan-repayment td {
+    color: #666666;
+}
 .tbl-list-repayment {
     border-collapse: collapse;
     width: 100%;
+    font: inherit;
 }
 
 .tbl-list-repayment th {
     background: none repeat scroll 0 0 #ECECEC;
-    color: #303030;
+    color: #666666;
     font-size: 14px;
     padding: 7px 5px;
 }
@@ -38,6 +42,7 @@ td {
     font-size: 14px;
     line-height: 140%;
     padding: 7px 6px;
+    color: rgba(102, 102, 102, 0.75);
 }
 
 .txt-loan-repayment, .txt-date {
@@ -47,7 +52,7 @@ td {
     margin-right: 3px;
     padding: 0 3px;
     width: 200px;
-	text-align: right;
+    text-align: right;
 }
 
 .btnrepayment {
