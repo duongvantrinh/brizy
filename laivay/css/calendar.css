@@ -55,11 +55,6 @@ table.DynarchCalendar-titleCont {
   background-position: 100% 50%;
 }
 
-
-
-
-
-
 .DynarchCalendar-bottomBar {
   border-top: 1px solid #aaa;
   background: #ddd;
@@ -83,11 +78,6 @@ table.DynarchCalendar-titleCont {
   color: #fff;
   padding: 1px 14px;
 }
-
-
-
-
-
 
 .DynarchCalendar-body {
   position: relative;
@@ -199,7 +189,7 @@ table.DynarchCalendar-titleCont {
   position: absolute;
   left: 0;
   top: 0;
-  width: 60%;
+  width: 100%;
   height: 100%;
   background-color: #ddd;
   overflow: hidden;
@@ -324,7 +314,7 @@ table.DynarchCalendar-titleCont {
 
 .DynarchCalendar-tooltip {
   position: absolute;
-  top: 100%;
+  top: 50%;
   width: 100%;
 }
 
